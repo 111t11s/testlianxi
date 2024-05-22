@@ -1,0 +1,43 @@
+git init：在当前目录下创建一个新的 Git 仓库。
+
+git clone <repository>：克隆一个远程仓库到本地。
+
+git add <file>：将文件添加到暂存区。"."是当前所有文件
+
+git commit -m "<message>"：将暂存区的更改提交到本地仓库，并附带提交信息。
+
+git status：查看当前仓库的状态，包括已修改但未提交的文件。
+
+git pull<remote><branch>：从远程仓库拉取指定分支的更新，并合并到当前分支。
+
+git push<remote><branch>：将当前分支的更改推送到远程仓库的指定分支。
+
+git diff：查看工作区与暂存区之间的差异。
+
+git log：查看提交历史。
+
+git remote add <name> <url>：添加一个远程仓库，并为其指定一个名称。
+
+git fetch<remote>：从远程仓库获取更新。
+
+git branch：列出本地仓库的所有分支。
+
+git checkout <branch>：切换到指定分支。
+
+git checkout -b <new-branch>：创建一个新分支，并切换到该分支。
+
+git merge <branch>：将指定分支的更改合并到当前分支。
+
+git rebase <branch>：将当前分支的更改重新应用到指定分支的顶部，以实现线性的提交历史。
+
+git reset <commit>：将当前分支重置到指定提交，丢弃该提交之后的所有更改。
+
+git revert <commit>：撤销指定提交的更改，并创建一个新的提交来记录这些更改。
+
+git stash：将当前工作区的更改暂存，以便在稍后恢复。
+
+git stash apply：应用最近一次暂存的更改到当前工作区。
+
+git stash drop：删除最近一次暂存的更改。
+
+git stash pop：应用并删除最近一次暂存的更改。
